@@ -6,6 +6,101 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('./fonts/opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('./fonts/opensans-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 10px;
+}
+
 body {
     font-family: 'ralewaythin';
+    font-size: 1.6rem;
+}
+
+.container_header {
+    height: 750px;
+    background-image: url(./images/header_background.png);
+    font-family: 'ralewaythin';
+}
+
+.logo-nav {
+    max-width: 1170px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 3.8rem 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #50536a;
+}
+
+.active-box {
+    width: 189px;
+    height: 24px;
+    background-image: url(./images/ActiveBox.png);
+    background-repeat: no-repeat;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.navigation a {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 5.9rem;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.header-txt {
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 15.6rem;
+    box-sizing: border-box;
+}
+
+.favorite-page {
+    font-family: 'open_sansregular';
+    font-size: 6.5rem;
+    line-height: 7.1rem;
+    font-weight: 700;
+    text-overflow: calc();
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.description-page {
+    font-size: 2.2rem;
+    line-height: 3.3rem;  
+    padding: 2.3rem 0 7rem 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: #ffffff;
+}
+
+.find-button {
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    font-weight: 600;
+    width: 200px;
+    height: 46px;
+    border-radius: 2px;
+    border: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #e84545;
 }
