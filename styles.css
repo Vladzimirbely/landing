@@ -24,6 +24,7 @@ body {
 }
 
 .container_header {
+    max-width: 2960px;
     height: 750px;
     background-image: url(./images/header_background.png);
     font-family: 'ralewaythin';
@@ -209,4 +210,118 @@ body {
     height: 60px;
     background-image: url(./images/cloud.png);
     background-repeat: no-repeat;
+}
+
+.works {
+    max-width: 2560px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.works .image-school {
+    position: relative;
+    width: 600px;
+    height: 343px;
+    background-image: url(./images/school.png);
+    background-repeat: no-repeat;
+    padding: 0 0.1rem 0 0.1rem;
+    box-sizing: border-box;
+}
+
+.works .image-notebook {
+    width: 600px;
+    height: 343px;
+    background-image: url(./images/notebook.png);
+    background-repeat: no-repeat;
+    margin: 0 0.1rem 0 0.1rem;
+}
+
+.works .image-photo {
+    width: 600px;
+    height: 343px;
+    background-image: url(./images/photo.png);
+    background-repeat: no-repeat;
+    margin: 0 0.1rem 0 0.1rem;
+}
+
+.works .image-foot {
+    width: 600px;
+    height: 343px;
+    background-image: url(./images/food.png);
+    background-repeat: no-repeat;
+    margin: 0 0.1rem 0 0.1rem;
+}
+
+.works .image-medicine {
+    width: 600px;
+    height: 343px;
+    background-image: url(./images/medicine.png);
+    background-repeat: no-repeat;
+    margin: -1.9rem 0.1rem 0 0.1rem;
+}
+
+.works .image-instrument {
+    width: 600px;
+    height: 343px;
+    background-image: url(./images/instrument.png);
+    background-repeat: no-repeat;
+    margin: -1.9rem 0.1rem 0 0.1rem;
+}
+
+.works .image-letters {
+    width: 600px;
+    height: 343px;
+    background-image: url(./images/letters.png);
+    background-repeat: no-repeat;
+    margin: -1.9rem 0.1rem 0 0.1rem;
+}
+
+.works .image-sushi {
+    width: 600px;
+    height: 343px;
+    background-image: url(./images/sushi.png);
+    background-repeat: no-repeat;
+    margin: -1.9rem 0.1rem 0 0.1rem;
+}
+
+.image-school:hover,
+.image-notebook:hover,
+.image-photo:hover,
+.image-foot:hover,
+.image-medicine:hover,
+.image-instrument:hover,
+.image-letters:hover,
+.image-sushi:hover {
+    z-index: 0;
+}
+
+.works_txt {
+    width: 600px;
+    height: 324px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.works_txt:hover {
+    font-size: 1.4rem;
+    font-weight: 700;
+    opacity: 0.8;
+    transition: 0.5s;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #e84545;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.works_txt small {
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    text-transform: capitalize;
 }
