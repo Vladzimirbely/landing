@@ -325,3 +325,73 @@ body {
     margin-top: 1.5rem;
     text-transform: capitalize;
 }
+
+.team {
+    max-width: 1170px;
+    height: 782px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.founder,
+.co-founder,
+.ui,
+.data-scientist {
+    max-width: 270px;
+}
+
+.founder .photo-founder {
+    width: 270px;
+    height: 270px;
+    background-image: url(./images/founder.png);
+    background-repeat: no-repeat;
+}
+
+.founder h4,
+.co-founder h4,
+.ui h4,
+.data-scientist h4 {
+    font-size: 2.2rem;
+    color: #2d3033;
+}
+
+.founder h5,
+.co-founder h5,
+.ui h5,
+.data-scientist h5 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #e84545;
+}
+
+.founder p,
+.co-founder p,
+.ui p,
+.data-scientist p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #6c7279;
+}
+
+.co-founder .photo-co-founder {
+    width: 270px;
+    height: 270px;
+    background-image: url(./images/co-founder.png);
+    background-repeat: no-repeat;
+}
+
+.ui .photo-ui {
+    width: 270px;
+    height: 270px;
+    background-image: url(./images/ui.png);
+    background-repeat: no-repeat;
+}
+
+.data-scientist .photo-data-scientist {
+    width: 270px;
+    height: 270px;
+    background-image: url(./images/data-scientist.png);
+    background-repeat: no-repeat;
+}
