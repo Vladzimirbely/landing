@@ -359,7 +359,11 @@ body {
     background: #53354a;
 }
 
-.slider-txt {
+.wrap-slider .wrap-button {
+    text-align: center;
+}
+
+.wrap-slider .slider-txt {
     display: flex;
     justify-content: center;
     padding-top: 3rem;
@@ -457,7 +461,7 @@ body {
     background-color: #3a3e64;
 }
 
-.contact-us {
+.information-activebox .contact-us {
     max-width: 1200px;
     height: 250px;
     display: flex;
@@ -526,7 +530,7 @@ body {
     background-color: #ffffff;
 }
 
-.about-us {
+.information-activebox .about-us {
     max-width: 330px;
     text-align: center;
 }
