@@ -206,9 +206,9 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 610px) {
 
-    .contact-us {
+    .information-activebox .contact-us {
         height: 250px;
         flex-direction: column;
         padding: 3rem 0;
