@@ -119,6 +119,10 @@
 }
 
 @media (max-width: 700px) {
+    
+    .active-box {
+        margin-right: 2rem;
+    }
 
     .container_header .logo-nav {
         height: 200px;
@@ -130,12 +134,13 @@
 
     .logo-nav .navigation {
         padding-top: 2rem;
+        box-sizing: border-box;
     }
 
     .logo-nav .navigation a {
         display: block;
         text-align: center;
-        padding-bottom: 1rem;
+        padding: 0 0 1rem 0;
         box-sizing: border-box;
     }
 
