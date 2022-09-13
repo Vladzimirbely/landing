@@ -590,13 +590,23 @@ body {
     top: 25%;
     left: 25%;
     border-radius: 14px;
-    background-color: #2e1627;
+    background-color: #000000;
 }
 
 .modal__content button {
     width: 100px;
     height: 30px;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: #2d3033;
+    color: #ffffff;
+}
+
+.modal__content button:hover {
+    background-color: #ffffff;
+    color: #2d3033;
 }
 
 .open {
