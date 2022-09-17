@@ -1,5 +1,6 @@
 export function upPage() {
-    let scroll = document.querySelector('.up-page__btn')
+    let scroll = document.querySelector('.up-page__btn');
+    
     window.addEventListener('scroll', function() {      
         scroll.classList.toggle('active', window.scrollY > 600);
     });
