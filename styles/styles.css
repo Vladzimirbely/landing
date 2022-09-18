@@ -258,6 +258,7 @@ body {
     height: 50%;
     top: 25%;
     left: 25%;
+    border: 15px solid #d0dae6;
     border-radius: 20px;
     cursor: pointer;
 }
