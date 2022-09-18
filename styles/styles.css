@@ -195,6 +195,7 @@ body {
     height: 346px;
     border: 1px solid #ffffff;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .works .image-school {
@@ -205,7 +206,7 @@ body {
     background-image: url(../images/notebook.png);
 }
 
-.works .image-photo {
+.works .image-camera {
     background-image: url(../images/photo.png);
 }
 
@@ -248,6 +249,89 @@ body {
     color: #ffffff;
     opacity: 0;
     z-index: -1;
+}
+
+.scale-window {
+    position: fixed;
+    display: none;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.scale-window button {
+    width: 30px;
+    height: 30px;
+    border: 0;
+    margin: 6px 6px 0 0;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #313454;
+}
+
+.scale-window button:hover {
+    color: #313454;
+    background-color: #ffffff;
+}
+
+.open-photo-school {
+    display: flex;
+    justify-content: right;
+    background: url(../images/school.png);
+    background-size: cover;
+}
+
+.open-photo-notebook {
+    display: flex;
+    justify-content: right;
+    background: url(../images/notebook.png);
+    background-size: cover;
+}
+
+.open-photo-camera {
+    display: flex;
+    justify-content: right;
+    background: url(../images/photo.png);
+    background-size: cover;
+}
+
+.open-photo-foot {
+    display: flex;
+    justify-content: right;
+    background: url(../images/food.png);
+    background-size: cover;
+}
+
+.open-photo-medicine {
+    display: flex;
+    justify-content: right;
+    background: url(../images/medicine.png);
+    background-size: cover;
+}
+
+.open-photo-instrument {
+    display: flex;
+    justify-content: right;
+    background: url(../images/instrument.png);
+    background-size: cover;
+}
+
+.open-photo-letters {
+    display: flex;
+    justify-content: right;
+    background: url(../images/letters.png);
+    background-size: cover;
+}
+
+.open-photo-sushi {
+    display: flex;
+    justify-content: right;
+    background: url(../images/sushi.png);
+    background-size: cover;
 }
 
 .works-txt:hover {
@@ -645,4 +729,8 @@ body {
     background-color: #50536a;
     visibility: visible;
     opacity: 1;
+}
+
+.active:hover {
+    opacity: 0.6;
 }
