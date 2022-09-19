@@ -270,13 +270,13 @@ body {
     margin: 6px 6px 0 0;
     border-radius: 50%;
     cursor: pointer;
-    color: #ffffff;
-    background-color: #313454;
+    color: #313454;
+    background-color: #ffffff;
 }
 
 .scale-window button:hover {
-    color: #313454;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #d0dae6;
 }
 
 .open-photo-school {
@@ -349,11 +349,11 @@ body {
 }
 
 .team {
-    max-width: 1400px;
+    width: 1260px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     margin: 9.1rem auto;
     padding: 0 2rem;
     box-sizing: border-box;
@@ -421,6 +421,38 @@ body {
 .networks a:hover {
     transition: all 0.5s;
     border-color: #c6cacc;
+}
+
+.slider {
+    width: 610px;
+    overflow: hidden;
+}
+
+.slider-line {
+    position: relative;
+    width: 1260px;
+    display: flex;
+    flex-wrap: wrap;
+    right: 0;
+    transition: all ease 1s;
+}
+
+.slider-prev,
+.slider-next {
+    width: 40px;
+    height: 40px;
+    font-size: 3rem;
+    border: 0;
+    border-radius: 10px;
+    margin: 0 2rem;
+    cursor: pointer;
+    color: #000000;
+}
+
+.slider-prev:hover,
+.slider-next:hover {
+    color: #ffffff;
+    background-color: #6e5667;
 }
 
 .clients {
