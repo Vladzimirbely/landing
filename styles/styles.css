@@ -190,6 +190,10 @@ body {
     box-sizing: border-box;
 }
 
+/* .works > div:hover {
+    z-index: 0;
+} */
+
 .works div {
     width: 600px;
     height: 346px;
@@ -198,43 +202,7 @@ body {
     cursor: pointer;
 }
 
-.works .image-school {
-    background-image: url(../images/school.png);
-}
-
-.works .image-notebook {
-    background-image: url(../images/notebook.png);
-}
-
-.works .image-camera {
-    background-image: url(../images/photo.png);
-}
-
-.works .image-foot {
-    background-image: url(../images/food.png);
-}
-
-.works .image-medicine {
-    background-image: url(../images/medicine.png);
-}
-
-.works .image-instrument {
-    background-image: url(../images/instrument.png);
-}
-
-.works .image-letters {
-    background-image: url(../images/letters.png);
-}
-
-.works .image-sushi {
-    background-image: url(../images/sushi.png);
-}
-
-.works > div:hover {
-    z-index: 0;
-}
-
-.works-txt {
+/* .works-txt span {
     width: 100%;
     height: 100%;
     position: relative;
@@ -245,13 +213,12 @@ body {
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    background-color: #e84545;
-    color: #ffffff;
-    opacity: 0;
+    
+    color: #ffffff;   
     z-index: -1;
-}
+} */
 
-.scale-window {
+/* .scale-window {
     position: fixed;
     display: none;
     width: 50%;
@@ -271,82 +238,27 @@ body {
     border-radius: 50%;
     cursor: pointer;
     color: #313454;
-    background-color: #ffffff;
-}
-
-.scale-window button:hover {
-    color: #ffffff;
     background-color: #d0dae6;
 }
 
-.open-photo-school {
-    display: flex;
-    justify-content: right;
-    background: url(../images/school.png);
-    background-size: cover;
-}
+.scale-window button:hover {
+    color: #d0dae6;
+    background-color: #ffffff;
+} */
 
-.open-photo-notebook {
-    display: flex;
-    justify-content: right;
-    background: url(../images/notebook.png);
-    background-size: cover;
-}
-
-.open-photo-camera {
-    display: flex;
-    justify-content: right;
-    background: url(../images/photo.png);
-    background-size: cover;
-}
-
-.open-photo-foot {
-    display: flex;
-    justify-content: right;
-    background: url(../images/food.png);
-    background-size: cover;
-}
-
-.open-photo-medicine {
-    display: flex;
-    justify-content: right;
-    background: url(../images/medicine.png);
-    background-size: cover;
-}
-
-.open-photo-instrument {
-    display: flex;
-    justify-content: right;
-    background: url(../images/instrument.png);
-    background-size: cover;
-}
-
-.open-photo-letters {
-    display: flex;
-    justify-content: right;
-    background: url(../images/letters.png);
-    background-size: cover;
-}
-
-.open-photo-sushi {
-    display: flex;
-    justify-content: right;
-    background: url(../images/sushi.png);
-    background-size: cover;
-}
-
-.works-txt:hover {
+/* .works-txt:hover {
     opacity: 0.8;
     transition: all 0.5s;
-    z-index: 1;
-}
+    background-color: #e84545;
+    z-index: 2;
+} */
 
-.works-txt small {
+/* .works-txt small {
     display: block;
     font-size: 1.4rem;
     margin-top: 1.5rem;
     text-transform: capitalize;
-}
+} */
 
 .team {
     width: 1260px;
@@ -430,9 +342,10 @@ body {
 
 .slider-line {
     position: relative;
-    width: 1260px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1260px;
+    display: flex;
     right: 0;
     transition: all ease 1s;
 }
@@ -764,6 +677,21 @@ body {
     opacity: 1;
 }
 
-.active:hover {
+.up-page__btn.active:hover {
     opacity: 0.6;
+}
+
+.works {
+    position: relative;
+}
+
+.img-gallery-item.active {
+    width: 1940px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: scale(2);
+    background: #000000;
+    z-index: 1;
 }

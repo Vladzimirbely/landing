@@ -4,7 +4,7 @@ export function addSlider() {
 
     document.querySelector('.slider-next').addEventListener('click', function() {
         position += 310;
-        if (position > 830) {
+        if (position > 860) {
             position = 0;
         };
 
@@ -14,7 +14,7 @@ export function addSlider() {
     document.querySelector('.slider-prev').addEventListener('click', function() {
         position -= 310;
         if (position < 0) {
-            position = 620;
+            position = 630;
         };
 
         sliderLine.style.right = position + 'px';

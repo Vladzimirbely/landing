@@ -22,38 +22,6 @@
         border: 1px solid #ffffff;
         background-repeat: no-repeat;
     }
-    
-    .works .image-school {
-        background-image: url(../images/schoolmin.png);
-    }
-    
-    .works .image-notebook {
-        background-image: url(../images/notebookmin.png);
-    }
-    
-    .works .image-photo {
-        background-image: url(../images/photomin.png);
-    }
-    
-    .works .image-foot {
-        background-image: url(../images/foodmin.png);
-    }
-    
-    .works .image-medicine {
-        background-image: url(../images/medicinemin.png);
-    }
-    
-    .works .image-instrument {
-        background-image: url(../images/instrumentmin.png);
-    }
-    
-    .works .image-letters {
-        background-image: url(../images/lettersmin.png);
-    }
-    
-    .works .image-sushi {
-        background-image: url(../images/sushimin.png);
-    }
 
     .team {
         max-width: 900px;
